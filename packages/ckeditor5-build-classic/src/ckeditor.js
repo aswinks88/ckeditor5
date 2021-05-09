@@ -33,9 +33,9 @@ import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices'
 
 //custom plugin
 import MathType from '@wiris/mathtype-ckeditor5';
-import HtmlEmbed from '@ckeditor/ckeditor5-html-embed';
-import CodeBlock from '@ckeditor/ckeditor5-code-block';
-import Font from '@ckeditor/ckeditor5-font';
+// import HtmlEmbed from '@ckeditor/ckeditor5-html-embed';
+// import CodeBlock from '@ckeditor/ckeditor5-code-block';
+// import Font from '@ckeditor/ckeditor5-font';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -66,9 +66,9 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	MathType,
-	HtmlEmbed,
-	CodeBlock,
-	Font,
+	// HtmlEmbed,
+	// CodeBlock,
+	// Font,
 ];
 
 // Editor configuration.
